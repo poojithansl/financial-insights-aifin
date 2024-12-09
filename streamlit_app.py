@@ -21,7 +21,8 @@ class RAG_System2():
         pass
     
     def respond(self, query, ticker, year):
-        return f"Answering query for {query}, year - {year}, ticker - {ticker}", None
+        return f"Answering query : {query}, year - {year}, ticker - {ticker}. Unable to obtain GPU resources, therefore, I cannot answer your query,\
+        Please try another time!", None
 
 
 
